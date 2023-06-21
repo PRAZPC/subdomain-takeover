@@ -1,3 +1,25 @@
+<!DOCTYPE html>
 <html>
-	<h1>SDTKO</h1>
+<body>
+<h1>the unclaimed subdomain was takeover ; with the poc;</h1>
+   <div id = "p1"> </div>
+   <div id="p2"></div>
+   <div id = "p3"> </div>
+   <div id="p4"></div>
+   <script>
+      var pathname = window.location.pathname;
+      var port =window.location.port;
+	  var protocole = window.location.protocol;
+	  var hostname=window.location.host;
+	  alert(pathname);
+	  alert(hostname);
+		document.getElementById("p1").innerHTML = "Path name: "+	pathname;
+	    document.getElementById("p2").innerHTML = "hostname: "+	hostname;
+		document.getElementById("p3").innerHTML = "port: "+	port;
+		document.getElementById("p4").innerHTML = "protocol: "+	protocole;
+	  
+	  
+   </script>
+</body>
+
 </html>
